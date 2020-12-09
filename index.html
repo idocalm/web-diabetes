@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<style>
+    h1, h2, h3, h4, h5, h6, p, a , li, ul{
+        color: white
+    }
+</style>
+<script>
+    var go = true
+</script>
+<script>
+
+    function makeAlert(){ 
+    $("#load").css( "border", "3px solid red" );;
+
+    }
+    if(go == true){
+    setInterval(makeAlert, 2000);
+    }
+
+
+
+</script>
+<html>
+<head>
+<meta http-equiv="refresh" content="3" >
+<title>Diabetes.</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<title>Page Title</title>
+</head>
+<body>
+
+<div style="background-color: rgb(166,96,53)" class="jumbotron text-center">
+    <h1>Hi!</h1>
+    <p>Here is a summery of these days services for monitoring CGM's?</p>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div style="background-color: rgb(192,155,47)"class="col-sm-4">
+        <h3 class="display-4">Spike</h3>
+        <div id="load"class="spinner-border text-info"></div>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+      <div style="background-color: rgb(192,155,47)"class="col-sm-4">
+        <h3 class="display-4">Tomato</h3>
+        <div id="load"class="spinner-border text-info"></div>
+        <p>At the moment, more disadvantages then benefits.</p>
+        <ul>
+            <li>+ Easy to use UI</li>
+            <li>- Errors are written on Chinese</li>
+            <li>- <b>Currently</b> remote monitoring is only via Facebook Messanger</li>
+            <li>- Very <b>POOR</b> support</li>
+          </ul>
+    </div>
+      <div style="background-color: rgb(192,155,47)"class="col-sm-4">
+        <h3 class="display-4">Xdrip+</h3>
+        <div  id="load" class="spinner-border text-info"></div>
+        <p>Fair to use for Android users</p>
+        <ul>
+            <li>- <b><u>Un</u></b>understandable UI</li>
+            <li>- Unstable app</li>
+            <li>+ Great Support</li>
+            <li>+ <b>Allows</b> remote monitoring with particial screen for followers</li>
+          </ul>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
